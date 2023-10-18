@@ -6,8 +6,8 @@ public class GreatestNumberPrinter {
             System.out.println(second);
         } if (first > second) {
             System.out.println(first);
-        } else {
-            System.out.println(first);
+        } if (first == second) {
+            System.out.println(second);
         }
     }
 }
